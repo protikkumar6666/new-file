@@ -1,0 +1,46 @@
+{
+  "name": "modern-website",
+  "version": "1.0.0",
+  "description": "A modern, beautiful website with stunning design and smooth animations",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 3000",
+    "serve": "python -m http.server 8080",
+    "build": "echo 'Static website - no build process needed'",
+    "deploy": "echo 'Ready for deployment to any static hosting service'"
+  },
+  "keywords": [
+    "website",
+    "modern",
+    "responsive",
+    "html",
+    "css",
+    "javascript",
+    "animations",
+    "beautiful",
+    "ui",
+    "ux"
+  ],
+  "author": "ModernSite",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/modern-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/modern-website/issues"
+  },
+  "homepage": "https://your-username.github.io/modern-website",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
